@@ -56,7 +56,7 @@ app.use("/api/v1/users", userRouter);
 app.use("/api/v1/categories", categoryRouter);
 app.use("/api/v1/transactions", transactionRouter);
 app.use("/api/v1/recurring-expenses", recurringExpenseRouter);
-app.use("/api/v1/recurring-expenses", recurringExpenseRouter); // Add this for frontend compatibility
+app.use("/recurring-expenses", recurringExpenseRouter); // Add this for frontend compatibility
 app.use("/api/v1/budgets", budgetRouter);
 app.use("/api/v1/goals", goalRouter);
 app.use("/api/v1/reports", reportRouter);
