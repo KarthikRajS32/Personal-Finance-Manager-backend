@@ -1,16 +1,35 @@
 {
-  "name": "backend",
+  "name": "personal-finance-manager-backend",
   "version": "1.0.0",
+  "description": "A comprehensive RESTful API for personal finance management with features for transaction tracking, budget management, financial goals, and detailed reporting. Built with Node.js, Express, and MongoDB.",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "personal-finance",
+    "budget-tracker",
+    "expense-manager",
+    "financial-goals",
+    "nodejs",
+    "express",
+    "mongodb",
+    "rest-api",
+    "jwt-authentication",
+    "financial-reports"
+  ],
+  "author": "Personal Finance Manager Team",
   "license": "ISC",
-  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/personal-finance-manager-backend.git"
+  },
+  "homepage": "https://github.com/your-username/personal-finance-manager-backend#readme",
+  "bugs": {
+    "url": "https://github.com/your-username/personal-finance-manager-backend/issues"
+  },
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
